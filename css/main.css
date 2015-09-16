@@ -1,0 +1,180 @@
+html{
+	box-sizing: border-box;
+	font-family: 'Oxygen', sans-serif;
+}
+*, *::before, *::after{
+	box-sizing: inherit;
+}
+body{
+	margin: 0;
+}
+header{
+	position: relative;
+	text-align: center;
+	padding-top: 1em;
+}
+header img{
+	width: 25px;
+}
+header h1{
+	display: inline;
+}
+header nav li{
+	display: inline;
+	width: 25%;
+	float: left;
+	padding: .5em;
+}
+header nav ol{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+header nav{
+	background-color: black;
+	margin-top: 1em;
+}
+header a{
+	text-decoration: none;
+	color: white;
+}
+.top img{
+	width: 111.6%;
+	margin: 0 -6%;
+}
+.top p{
+	position: relative;
+	top: -8rem;
+	color: white;
+	text-align: center;
+	margin-bottom: -5em;
+	width: 100%;
+	text-shadow: 4px 4px 10px black;
+}
+.desc li{
+	display: inline-block;
+	width: 32%;
+}
+.desc{
+	padding: 0;
+}
+.desc dt{
+	font-weight: bold;
+}
+.desc dl, .desc dd{
+	margin: 0;
+}
+main{
+	padding:0 5% 5% 5%;
+}
+main img{
+	width: 100%;
+}
+h2{
+	text-align: center;
+}
+.learn{
+	width: 100%;
+	background-color: #b808ff;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: 2em;
+	border-radius: 0.25em;
+}
+.learn a{
+	text-decoration: none;
+	color: white;
+}
+.button{
+	display: inline;
+	background-color: #b808ff;
+	border-radius: 0.25em;
+	padding: .25em;
+	color: white;
+	position: relative;
+	bottom: 7px;
+}
+.price{
+	width: 100%;
+	text-align: center;
+}
+.price div{
+	background-color: black;
+	padding: 1em 1em;
+	margin: 0 2.5%;
+	width: 44%;
+	display: inline-block;
+	border-radius: 0.25em;
+}
+.price a{
+	text-decoration: none;
+	color: white;
+}
+footer{
+	padding:0 5%;
+}
+main li{
+	display: inline;
+}
+.top2 img{
+	width: 111.6%;
+	margin: 0 -6%;
+}
+.playing{
+	width: 111.6%;
+	background-color: black;
+	text-align: center;
+	padding: .5em;
+	margin-bottom: -0.65em;
+	margin-left: -6%;
+	color: white;
+	margin-top:2em;
+}
+figure{
+	margin: 1em 0 0 0;
+}
+.top2 figcaption{
+	position: relative;
+	top: -11rem;
+	color: white;
+	text-align: center;
+	margin-bottom: -7em;
+	width: 100%;
+	text-shadow: 1px 2px 1px black;
+}
+.pr{
+	text-align: center;
+}
+.button2{
+	display: inline;
+	background-color: #b808ff;
+	border-radius: 0.5em;
+	padding: .4em;
+	color: white;
+	position: relative;
+	text-shadow: none;
+}
+main a{
+	text-decoration: none;
+}
+.days ol{
+	width: 55%;
+	margin: 0;
+	padding: 0;
+}
+footer li{
+	display: inherit;
+}
+footer ul{
+	padding: 0;
+}
+footer ol{
+	display: inline;
+	padding: 0;
+}
+footer p{
+	margin:0;
+}
+footer a{
+	color: #b808ff;
+}
