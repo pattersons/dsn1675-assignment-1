@@ -1,7 +1,20 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+
 html{
+	box-sizing: border-box;
+  -moz-text-size-adjust: 100%
+  -ms-text-size-adjust: 100%
+  -webkit-text-size-adjust: 100%
+  text-size-adjust: 100%
 	box-sizing: border-box;
 	font-family: 'Oxygen', sans-serif;
 }
+
 *, *::before, *::after{
 	box-sizing: inherit;
 }
@@ -177,4 +190,65 @@ footer p{
 }
 footer a{
 	color: #b808ff;
+}
+
+@media only screen and (min-width: 26em) {
+
+
+  .nav {
+    text-align: center;
+    }
+
+
+  .nav li {
+    display: inline-block;
+  }
+
+}
+
+@media only screen and (min-width: 30em) {
+
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0 1em;
+  }
+
+  .title{
+    margin: 0;
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+}
+
+@media only screen and (min-width: 55em) {
+
+  .masthead {
+    float: left;
+    width: 30%;
+  }
+
+  main {
+    float: right;
+    width: 70%;
+  }
+
+  .title {
+    display: block;
+    margin: 1em 0;
+  }
+
+  .logo {
+    display: block;
+    margin: 0 auto;
+  }
+
+  .nav {
+    text-align: left;
+  }
+
+  .nav li {
+    display: block;
+  }
 }
